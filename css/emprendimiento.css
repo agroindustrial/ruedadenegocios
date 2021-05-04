@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #96858f;
+}
+
+header{
+    background: #fff;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .contenido{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 650px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textos{
+    width: 40%;
+    color: #6d7993;
+}
+
+.textos h1{
+    font-size: 60px;
+}
+
+.textos h2{
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 550px;
+    z-index: 10;
+    position: relative;
+}
+
+header .textos a{
+    display: inline-block;
+    padding: 10px, 0;
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid #96858f;
+    text-align: center;
+    border-radius: 3px;
+    background: #96858f;
+    color: #fff;
+}
+
+.partFooter {
+    width: 100%;
+    text-align: left;
+    padding: 60px 0;
+}
+
+.partFooter h4 {
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.partFooter a {
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+.partFooter a:hover {
+    color: #1FDE82;
+}
+
+.partFooter img {
+    width: 70%;
+}
+
+.social-media i {
+    font-size: 20px;
+    display: inline-block;
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media i:hover {
+    color: #fff;
+    background-color: #1FDE82;
+    border-color: #1FDE82;
+}
+
+@media screen and (max-width:800px){
+    header .contenido{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .textos{
+        width: 100%;
+        text-align:center;
+
+    }
+
+    header img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:450px){
+    header .contenido{
+        width: 95%;
+    }
+
+    .textos h1{
+        font-size: 35px;
+    }
+
+    .textos h2{
+        font-size: 20px;
+    }
+
+    header img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:280px){
+    
+    header img{
+        width: 180px;
+    }
+}
