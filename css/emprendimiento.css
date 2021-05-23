@@ -121,15 +121,37 @@ header .navegacion a{
     }
 
     .textos h1{
-        font-size: 35px;
+        font-size: 24px;
     }
 
     .textos h2{
-        font-size: 20px;
+        font-size: 14px;
     }
 
     header img{
-        width: 300px;
+        width: 250px;
+    }
+    
+    header .navegacion a{
+        display: inline-block;
+        padding: 3px, 0;
+        width: 75px;
+        text-decoration: none;
+        border: 1px solid #96858f;
+        text-align: center;
+        border-radius: 3px;
+        background: #96858f;
+        color: #fff;
+    }
+
+    .partFooter {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .imagen video{
+        width: 100%;
     }
 }
 
